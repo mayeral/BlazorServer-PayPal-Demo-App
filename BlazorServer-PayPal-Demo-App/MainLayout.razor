@@ -1,0 +1,13 @@
+@inherits LayoutComponentBase
+
+<div class="page d-flex flex-column vh-100">
+    <BlazorServer_PayPal_Demo_App.Layout.HeaderComponent />
+
+    <main class="flex-grow-1 overflow-auto">
+        <article class="content px-3">
+            @Body
+        </article>
+    </main>
+
+    <BlazorServer_PayPal_Demo_App.Layout.FooterComponent></BlazorServer_PayPal_Demo_App.Layout.FooterComponent>
+</div>
